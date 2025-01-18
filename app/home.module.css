@@ -1,0 +1,25 @@
+.divider::after {
+    content: ' ';
+    border-top: 24px solid #ffffff;
+    border-right: calc(100vw - 17px) solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+.divider1::after {
+    content: ' ';
+    border-top: 24px solid #ffffff;
+    border-left: calc(100vw - 17px) solid transparent;
+    width: 0;
+    position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+    .divider::after {
+        border-top: 46px solid #ffffff;
+    }
+
+    .divider1::after {
+        border-top: 46px solid #ffffff;
+    }
+}
