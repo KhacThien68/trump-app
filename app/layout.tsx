@@ -9,7 +9,7 @@ import './globals.css';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Mantine Next.js template',
+  title: 'TRUMP - solana',
   description: 'I am using Mantine with Next.js!',
 };
 
