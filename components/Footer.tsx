@@ -16,10 +16,10 @@ const Footer = () => {
         >
           {width > 768 && (
             <Group>
-              <Title fz={26} fw={400} tt="uppercase" c="#ffffff">
+              <Title fz={27} fw={500} tt="uppercase" c="#ffffff">
                 How to buy
               </Title>
-              <Title fz={26} fw={400} tt="uppercase" c="#ffffff">
+              <Title fz={27} fw={500} tt="uppercase" c="#ffffff">
                 DexTools
               </Title>
             </Group>
