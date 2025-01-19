@@ -6,6 +6,8 @@ import { theme } from '../theme';
 
 import './globals.css';
 
+import Footer from '@/components/Footer';
+
 export const metadata = {
   title: 'Mantine Next.js template',
   description: 'I am using Mantine with Next.js!',
@@ -26,6 +28,7 @@ export default function RootLayout({ children }: { children: any }) {
         <MantineProvider theme={theme}>
           <Header />
           {children}
+          <Footer />
         </MantineProvider>
       </body>
     </html>
